@@ -29,8 +29,6 @@ public class BookService {
         } catch (Exception e) {
             e.printStackTrace();
         }
-        System.out.println(cookies);
-        System.out.println(response.body());
 
         /* 所以书的借阅信息 */
         JSONArray bookArray = new JSONArray();
